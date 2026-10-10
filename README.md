@@ -13,3 +13,9 @@ Minimal repros for Expo issues found while building
   run with `DEVELOPER_DIR` also builds with `xcode-select`'s Xcode, because the
   nested `xcodebuild` runs under `env -i`. Earlier report:
   [#50365](https://github.com/expo/expo/issues/50365)
+
+  Upstream issue:
+  [#51372 xcframework-xcode-switch](https://github.com/expo/expo/issues/51372)
+
+  Upstream fix:
+  [#51371 jsi-xcframework-xcode-switch](https://github.com/expo/expo/pull/51371)
